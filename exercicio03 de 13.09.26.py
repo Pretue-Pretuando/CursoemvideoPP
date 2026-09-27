@@ -1,0 +1,5 @@
+nome =input("Seu nome completo:")
+print('seu nome em letras {} maiusculas'.format(nome.upper()))
+print('seu nome em letras {} minusculas'.format(nome.lower()))
+print('seu tem nome tem {} letras'.format(len(nome)-nome.count(' ')))
+print('a primeira palavra do seu nome tem {} letras'.format(len(nome.split()[0])))

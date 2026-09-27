@@ -1,0 +1,5 @@
+n1 =int(input('Digite um numero:'))
+print('A unidade do numero é {}'.format(n1 % 10))
+print('A dezena do numero é {}'.format(n1 // 10 % 10))
+print('A centena do numero é {}'.format(n1 // 100 % 10))
+print('A milhar do numero é {}'.format(n1 // 1000 % 10))
